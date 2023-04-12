@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    background-color: #0072AA;
+    justify-content: center;
+
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 23%;
+}
+
+.assignment h1 {
+
+    color: #0072AA;
+    padding-left: 13%;
+}
+
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+
+}
+
+#step2 {
+
+
+    background-image: url(/world.jpg);
+}
+
+#myChart {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-timing-function: ease;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+#myChart:hover {
+    transform: scale(1.1);
+    transition: smooth;
+    opacity: 135;
+    background-color: #fff;
+
+
+}
+
+.meadingline {
+    justify-content: center;
+    color: #0072AA;
+}
+
+
+#step3 {
+    background-color: #fff;
+    margin-top: 80px;
+    background-image: url(/world.jpg);
+}
+
+.stepheadingmain {
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    color: #0072AA;
+}
+
+.tablemain {
+    opacity: 0;
+}
+
+.tablemain:hover {
+    opacity: 35;
+    transition-timing-function: ease;
+}
+
+h1 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+#step4 {
+    background-image: url(/world.jpg);
+
+}
+
+.barheading {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    color: #0072AA;
+
+}
+
+#chartContainer {
+    opacity: 0;
+}
+
+#chartContainer:hover {
+    opacity: 35;
+}
+
+#step5 {
+    background-image: url(/world.jpg);
+}
+
+.modelheading {
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+    color: #0072AA;
+}
+
+#container {
+    opacity: 0;
+
+}
+
+#container:hover {
+    opacity: 35;
+}
